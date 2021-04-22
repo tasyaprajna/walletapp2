@@ -1,6 +1,8 @@
 package com.example.walletapps.shared.dto;
 
-public class BalanceDTO {
+import java.io.Serializable;
+
+public class BalanceDTO implements Serializable {
     private static final long serialVersionUID = -8737558474432365610L;
     private String userName;
     private long balance;
